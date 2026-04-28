@@ -36,3 +36,26 @@ function generateAkanName() {
   const month = parseInt(document.getElementById("month").value);
   const year = parseInt(document.getElementById("year").value);
   const gender = document.getElementById("gender").value;
+
+  // Validate inputs
+  if (day < 1 || day > 31 || isNaN(day)) {
+    alert("Please enter a valid day (1 - 31)");
+    return;
+  }
+
+  if (month < 1 || month > 12 || isNaN(month)) {
+    alert("Please enter a valid month (1 - 12)");
+    return;
+  }
+
+  if (isNaN(year) || year < 1) {
+    alert("Please enter a valid year");
+    return;
+  }
+
+    if (gender === "") {
+      alert("Please select gender");
+      return;
+    }
+  }
+  
