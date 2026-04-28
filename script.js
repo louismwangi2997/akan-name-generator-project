@@ -32,10 +32,10 @@ const days = [
 // Main function
 function generateAkanName() {
   // Get user input
-  const day = parseInt(document.getElementById("day"));
-  const month = parseInt(document.getElementById("month"));
-  const year = parseInt(document.getElementById("year"));
-  const gender = document.getElementById("gender");
+  const day = parseInt(document.getElementById("day").value);
+  const month = parseInt(document.getElementById("month").value);
+  const year = parseInt(document.getElementById("year").value);
+  const gender = document.getElementById("gender")
 
   // Validate inputs
   if (day < 1 || day > 31 || isNaN(day)) {
