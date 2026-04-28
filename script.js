@@ -9,4 +9,22 @@ const maleNames = [
   "Kwame", // Saturday
 ];
 
-const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+const femaleNames = [
+  "Akosua", // Sunday
+  "Adwoa", // Monday
+  "Abenaa", // Tuesday
+  "Akua", // Wednesday
+  "Yaa", // Thursday
+  "Afua", // Friday
+  "Ama", // Saturday
+];
+
+const days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
