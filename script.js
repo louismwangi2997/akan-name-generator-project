@@ -65,12 +65,14 @@ function generateAkanName() {
   const DD = day;
   const MM = month;
 
-  // Formula
   let d = Math.floor(
-    ((4 * CC - 2 * CC - 1) +
-    ((5 * YY) / 4) +
-    ((26 * (MM + 1)) / 10) +
-    DD) % 7
+    (Math.floor(CC / 4) -
+      2 * CC -
+      1 +
+      Math.floor((5 * YY) / 4) +
+      Math.floor((26 * (MM + 1)) / 10) +
+      DD) %
+      7,
   );
 
   // Fix negative values
