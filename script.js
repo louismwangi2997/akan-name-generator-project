@@ -58,4 +58,10 @@ function generateAkanName() {
       return;
     }
   }
-  
+
+    // Get first two digits and last two digits of year
+  const CC = parseInt(year.toString().slice(0, 2));
+  const YY = parseInt(year.toString().slice(2));
+
+  const DD = day;
+  const MM = month;
