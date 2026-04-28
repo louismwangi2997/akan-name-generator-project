@@ -80,3 +80,10 @@ function generateAkanName() {
   }
 
   let akanName = "";
+
+  // Match gender with Akan name
+  if (gender === "male") {
+    akanName = maleNames[d];
+  } else {
+    akanName = femaleNames[d];
+  }
