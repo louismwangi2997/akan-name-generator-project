@@ -8,7 +8,7 @@
 /* Body */
 body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-color:gray;
+  background-color:#222;
   color: #222;
   line-height: 1.6;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .hero h1 em {
-  color: #007bff;
+  color: gold;
   font-style: normal;
 }
 
@@ -45,7 +45,7 @@ body {
 .form-card,
 .result-card,
 table {
-  background: white;
+  background: gray;
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
@@ -95,7 +95,7 @@ input[type="date"] {
 .btn-generate {
   width: 100%;
   padding: 12px;
-  background: #007bff;
+  background: gold;
   color: white;
   border: none;
   border-radius: 6px;
@@ -104,7 +104,7 @@ input[type="date"] {
 }
 
 .btn-generate:hover {
-  background: #0056b3;
+  background: gold;
 }
 
 /* Result */
@@ -145,7 +145,7 @@ td {
 }
 
 th {
-  background: #007bff;
+  background: gold;
   color: white;
 }
 
@@ -173,5 +173,5 @@ footer {
   }
 }
 header {
-  background-color: burlywood
+  background-color: white
 }
