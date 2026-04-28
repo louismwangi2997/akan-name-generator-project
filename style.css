@@ -1,11 +1,11 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
+
 body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   background-color:#222;
@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 
-/* Main Container */
+
 .container {
   width: 90%;
   max-width: 800px;
@@ -41,7 +41,7 @@ body {
   color: #666;
 }
 
-/* Form Card */
+
 .form-card,
 .result-card,
 table {
@@ -51,7 +51,7 @@ table {
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
-/* Form Section */
+
 .form-section {
   margin-bottom: 30px;
 }
@@ -61,7 +61,7 @@ table {
   margin-bottom: 20px;
 }
 
-/* Labels and Inputs */
+
 .form-group {
   margin-bottom: 18px;
 }
@@ -79,7 +79,7 @@ input[type="date"] {
   border-radius: 6px;
 }
 
-/* Gender */
+
 .gender-options {
   display: flex;
   gap: 20px;
@@ -91,7 +91,7 @@ input[type="date"] {
   gap: 5px;
 }
 
-/* Button */
+
 .btn-generate {
   width: 100%;
   padding: 12px;
@@ -107,7 +107,7 @@ input[type="date"] {
   background: gold;
 }
 
-/* Result */
+
 .result-section {
   margin-bottom: 30px;
 }
@@ -122,7 +122,7 @@ input[type="date"] {
   margin: 10px 0;
 }
 
-/* Table */
+
 .table-section h3 {
   text-align: center;
   margin-bottom: 15px;
@@ -157,7 +157,7 @@ footer {
   margin-top: 30px;
 }
 
-/* Responsive */
+
 @media (max-width: 600px) {
   .hero h1 {
     font-size: 2rem;
@@ -171,7 +171,4 @@ footer {
   .akan-name {
     font-size: 1.5rem;
   }
-}
-header {
-  background-color: white
 }
