@@ -59,11 +59,11 @@ function generateAkanName() {
   }
 
   // Get first two digits and last two digits of year
-  let CC = parseInt(year.toString().slice(0, 2));
-  let YY = parseInt(year.toString().slice(2));
+  const CC = parseInt(year.toString().slice(0, 2));
+  const YY = parseInt(year.toString().slice(2));
 
-  let DD = day;
-  let MM = month;
+  const DD = day;
+  const MM = month;
 
   // Formula
   let d = Math.floor(
