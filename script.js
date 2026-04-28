@@ -53,13 +53,12 @@ function generateAkanName() {
     return;
   }
 
-    if (gender === "") {
-      alert("Please select gender");
-      return;
-    }
+  if (gender === "") {
+    alert("Please select gender");
+    return;
   }
 
-    // Get first two digits and last two digits of year
+  // Get first two digits and last two digits of year
   const CC = parseInt(year.toString().slice(0, 2));
   const YY = parseInt(year.toString().slice(2));
 
@@ -86,4 +85,13 @@ function generateAkanName() {
     akanName = maleNames[d];
   } else {
     akanName = femaleNames[d];
+  }
+
+     // Display result
+    document.getElementById("result").innerHTML =
+      "You were born on <strong>" +
+      days[d] +
+      "</strong>. Your Akan name is <strong>" +
+      akanName +
+      "</strong>.";
   }
