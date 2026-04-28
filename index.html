@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akan Name Generator</title>
+  <link rel="stylesheet" href="style.css">
+<body>
+
+  <div class="background-pattern"></div>
+
+  <main class="container">
+
+    <header class="hero">
+      
+      <div class="hero-content">
+        <span class="subtitle-tag">Ghanaian Naming Tradition</span>
+        <h1>Discover Your <em>Akan Name</em></h1>
+        <p class="description">
+          In Akan culture, every child is given a soul name — <em>Kra din</em> — based on the day of the week they were born.
+          Enter your birthdate to uncover the name that has always been yours.
+        </p>
+      </div>
+      
+    </header>
+
+    <section class="form-section">
+      <div class="form-card">
+        <h2>Enter Your Details</h2>
+
+        <div class="form-group">
+          <label for="birthdate">Date of Birth</label>
+          <input type="date" id="birthdate" name="birthdate" />
+        </div>
+
+        <div class="form-group">
+          <label>Gender</label>
+          <div class="gender-options">
+            <label class="radio-label">
+              <input type="radio" name="gender" value="male" />
+              <span class="radio-custom"></span>
+              Male
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="gender" value="female" />
+              <span class="radio-custom"></span>
+              Female
+            </label>
+          </div>
+        </div>
+
+        <button class="btn-generate" id="generateBtn" onclick="generateAkanName()">
+          <span class="btn-text">Reveal My Akan Name</span>
+          <span class="btn-icon">✦</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="result-section" id="resultSection">
+      <div class="result-card" id="resultCard">
+        
+        <p class="result-label">Your Akan Name is</p>
+        <h2 class="akan-name" id="akanName">—</h2>
+        <p class="result-day" id="dayResult"></p>
+        <p class="result-meaning" id="nameMeaning"></p>
+        
+      </div>
+    </section>
+
+    <section class="table-section">
+      <h3>The Seven Soul Names</h3>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Male Name</th>
+              <th>Female Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Sunday</td><td>Kwasi</td><td>Akosua</td></tr>
+            <tr><td>Monday</td><td>Kwadwo</td><td>Adwoa</td></tr>
+            <tr><td>Tuesday</td><td>Kwabena</td><td>Abenaa</td></tr>
+            <tr><td>Wednesday</td><td>Kwaku</td><td>Akua</td></tr>
+            <tr><td>Thursday</td><td>Yaw</td><td>Yaa</td></tr>
+            <tr><td>Friday</td><td>Kofi</td><td>Afua</td></tr>
+            <tr><td>Saturday</td><td>Kwame</td><td>Ama</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Rooted in the traditions of the Akan people of Ghana &amp; Côte d'Ivoire</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
