@@ -73,3 +73,10 @@ function generateAkanName() {
     ((26 * (MM + 1)) / 10) +
     DD) % 7
   );
+
+  // Fix negative values
+  if (d < 0) {
+    d += 7;
+  }
+
+  let akanName = "";
